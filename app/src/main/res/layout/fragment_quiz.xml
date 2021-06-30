@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="data.manu.myapplication.QuizFragment"
+    android:id="@+id/frag_quiz"
+    android:background="@drawable/pen">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="3" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:layout_weight="2"
+            android:src="@drawable/download" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="quiz"
+            android:textAlignment="center"
+            android:textColor="#131212"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#4DDF55" />
+    </LinearLayout>
+
+</ScrollView>
